@@ -11,3 +11,5 @@ Hamid Syed
 chijerdeet Singh
 
 URL: [https://nawab-as.github.io/Hackathon]
+
+NOTE : this is original code, no code has been changed outside the hackathon. due to this the navbar url link have broken, if this happens you should add "/Hackathon/" after "...github.io"
