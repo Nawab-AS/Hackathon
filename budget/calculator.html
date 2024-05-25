@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+	<link href="../Styles.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/x-icon" href="/Favicon.png">
+	<title>Learn about Budget</title>
+</head>
+
+<body>
+	<div class="animate__animated animate__bounce" ; id="navbar">
+			<h1 class="animate__animated animate__bounce" ;>Money Compass</h1>
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/vansh/Banks_and_savings.html">Banks/Savings</a></li>
+				<li><a href="/budget/budget.html">Budgeting</a></li>
+				<li><a href="/Ahmed/Interest.html">Interest</a></li>
+				<li><a href="/budget/calculator.html">Budget Calculator</a></li>
+				<li><a href="/Ahmed/Interest_Calculator.html">Interest Calculator</a></li>
+				<li><a href="/FAQ.html">FAQ</a></li>
+				<li><a href="/Contact.html">Contact us!</a></li>
+
+			</ul>
+	</div>
+	<h1>Use this calculator to analyze and create a personalized budget</h1>
+
+	<div style="margin-left: 225px;">
+		<h3>Income</h3>
+		<input type="number" id="income">
+
+		<h3>Savings</h3>
+		<input type="number" id="savings">
+		<br>
+
+		<h3>Needs</h3>
+		<div id="needs"></div>
+
+		<button style="padding: 5px 7px; border-radius: 5 / 3;" onclick="addExpense()">Add an expence</button>
+	</div>
+	<br>
+
+	<script src="budget.js"></script>
+	<h2 id="budget-calculator-output"></h2>
+	<h1>Golden Rule Of Thumb:<br>If you can't afford two of it, you can't afford it</h1>
+
+
+</body>
+
+</html>

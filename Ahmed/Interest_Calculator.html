@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+
+	<link rel="icon" type="image/x-icon" href="/Favicon.png">
+	<link href="Styles.css" rel="stylesheet" type="text/css" />
+	<link rel="Stylesheet" type="text/css" href="/Styles.css">
+	<title>Interest Calculator</title>
+</head>
+
+<body>
+	<div class="animate__animated animate__bounce" ; id="navbar">
+		<h1 class="animate__animated animate__bounce" ;>Money Compass</h1>
+		<ul>
+			<li><a href="/index.html">Home</a></li>
+			<li><a href="/vansh/Banks_and_savings.html">Banks/Savings</a></li>
+			<li><a href="/budget/budget.html">Budgeting</a></li>
+			<li><a href="/Ahmed/Interest.html">Interest</a></li>
+			<li><a href="/budget/calculator.html">Budget Calculator</a></li>
+			<li><a href="/Ahmed/Interest_Calculator.html">Interest Calculator</a></li>
+			<li><a href="/FAQ.html">FAQ</a></li>
+			<li><a href="/Contact.html">Contact us!</a></li>
+
+		</ul>
+	</div>
+	</div>
+	<h3>Use this calculator to analyze how much interest you need to pay for your loan</h3>
+	<h3>Interest Rate</h3>
+	<input id="interest-rate" type="number" min="0" max="10000" id="interest-rate" style="margin-left: 100px;">
+	<h3>Loan Amount</h3>
+	<input type="number" min="0" max="100000000000000" id="loan-amount"style="margin-left: 100px;">
+	<h3>Time Period</h3>
+	<input type="number" min="0" max="100000000000000000" id="time-period"style="margin-left: 100px;">
+	<select name="compound-period" id="compound-period">
+		<option value="1">Years</option>
+		<option value="2">Half Years</option>
+		<option value="3">Four Months</option>
+		<option value="12">Months</option>
+		<option value="52">Weeks</option>
+		<option value="356">Days</option>
+	</select>
+
+	<script src="interest.js"></script>
+	<h2 id="interest-calculator-output"></h2>
+</body>
+
+</html>
